@@ -1,13 +1,16 @@
 
-// method chaining = calling one method after another in one continuos line of code 
-  
-  let userName = "edd";
-  let letter;
+// if statement   
+  let age;
 
-  letter = userName.charAt(0);
-  letter = letter.toUpperCase();
+  age = window.prompt("enter your age");
 
-    letter =userName.charAt(1).toUpperCase();
-  
-  console.log(letter);
+  age = Number(age);
+
+  if (age >= 18) {
+    console.log("you are an adult")
+    
+  }else{
+    console.log("you are not an adult")
+  }
+ 
 
