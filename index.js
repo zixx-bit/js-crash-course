@@ -1,17 +1,18 @@
-// Math
-let x = 3.14;
-let y = 2;
-let z = 9;
 
-x = Math.round(x); //correct round of
-x = Math.floor(x); //round down ans will be 3
-x = Math.ceil(x); //round up ans will be 4
-x = Math.pow(x,2); //power ans will be 3
-x = Math.sqrt(x);
-x = Math.abs(x);  //distance value from zero
+// useful string methods in javascript
 
-maximum = Math.max(x, y, z);
-minimum = Math.min(x, y, z);
+let username = "EddMichira";
+let phoneNumber = "254-702-66-8083";
 
-console.log(minimum);
-console.log(maximum);
+console.log(username.length);
+console.log(username.charAt(1));
+console.log(username.indexOf("M"));
+console.log(username.lastIndexOf("i"));
+// console.log(username.trim());
+username = username.toUpperCase();
+console.log(username);
+username = username.toLowerCase();
+console.log(username);
+
+phoneNumber = phoneNumber.replaceAll("-", "");
+console.log(phoneNumber);
