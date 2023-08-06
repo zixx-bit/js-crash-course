@@ -1,22 +1,36 @@
 
-// radio buttons 
- document.getElementById("myButton").onclick = function(){
-    
-    const visa =  document.getElementById("visa");
-    const mastercard = document.getElementById("mastercard");
-    const paypal = document.getElementById("paypal");
+// switch statement
+// switch = statement that examines a value for a match against many clauses.
+// more efficient than many "else if" statements
+let grade;
 
-   if (visa.checked=== true) {
-    alert("you are paying with visa");
+    grade = window.prompt("Enter your score");
+   
+    grade = Number(grade);
+
+    console.log(grade);
+
+    switch (true) {
+        case grade >= 90:
+            console.log("you did great.You gogt an A");
+            break;
+
+            case grade >= 70:
+                console.log("you got a B");
+                break;
+            
+        case grade >= 50:
+            console.log("You got a C");     
+            break;
+            
+        case grade >= 40:
+            console.log("You got a D");
+            break;
     
-   } else if(mastercard.checked){
-    alert("You are paying with mastercard");
-    } else if(paypal.checked){
-        alert("you are paying with paypal");
-    } else{
-        alert("select payment method");
+        default:
+            console.log("you did not do an exam")
+            break;
     }
-     
- }
+
  
 
