@@ -1,16 +1,13 @@
 
 // if statement   
-  let age;
-
-  age = window.prompt("enter your age");
-
-  age = Number(age);
-
-  if (age >= 18) {
-    console.log("you are an adult")
+ document.getElementById("myButton").onclick = function(){
+   if (document.getElementById("myCheckBox").checked=== true) {
+    alert("you are subscribed")
     
-  }else{
-    console.log("you are not an adult")
-  }
+   } else {
+    alert("You are not subscribed")
+    
+   }
+ }
  
 
