@@ -1,7 +1,8 @@
 
 // if statement   
  document.getElementById("myButton").onclick = function(){
-   if (document.getElementById("myCheckBox").checked=== true) {
+    const checkBox = document.getElementById("myCheckBox")
+   if (checkBox.checked=== true) {
     alert("you are subscribed")
     
    } else {
