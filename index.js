@@ -1,18 +1,15 @@
 
-// useful string methods in javascript
+// slice() extracts a section of the string and retuen s anew string withoud modifyng the original string 
+  let fullName = "Edward Michira";
+  let firstName;
+  let lastName;
 
-let username = "EddMichira";
-let phoneNumber = "254-702-66-8083";
+//   firstName = fullName.slice(0, 6);
+//   lastName = fullName.slice(3)
 
-console.log(username.length);
-console.log(username.charAt(1));
-console.log(username.indexOf("M"));
-console.log(username.lastIndexOf("i"));
-// console.log(username.trim());
-username = username.toUpperCase();
-console.log(username);
-username = username.toLowerCase();
-console.log(username);
+    firstName = fullName.slice(0, fullName.indexOf(" "));
+  lastName = fullName.slice(fullName.indexOf(" ")+1);
 
-phoneNumber = phoneNumber.replaceAll("-", "");
-console.log(phoneNumber);
+  console.log(firstName);
+  console.log(lastName);
+
