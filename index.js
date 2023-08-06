@@ -1,20 +1,11 @@
-//  let username;
- 
-//  document.getElementById("myButton").onclick = () => {
-//     username = document.getElementById("myText").value;
-//     console.log(username); 
+// Math
+let x = 3.14;
 
-//      document.getElementById("myLabel").innerHTML = "Hello "+username;
-    
+x = Math.round(x); //correct round of
+x = Math.floor(x); //round down ans will be 3
+x = Math.ceil(x); //round up ans will be 4
+x = Math.pow(x,2); //power ans will be 3
+x = Math.sqrt(x);
+x = Math.abs(x)  //distance value from zero
 
-let x;
-let y;
-let z;
-
-x= Number("22");
-y = String(34);
-z = Boolean("")
-
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
+console.log(x);
