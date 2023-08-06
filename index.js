@@ -1,15 +1,13 @@
 
-// slice() extracts a section of the string and retuen s anew string withoud modifyng the original string 
-  let fullName = "Edward Michira";
-  let firstName;
-  let lastName;
+// method chaining = calling one method after another in one continuos line of code 
+  
+  let userName = "edd";
+  let letter;
 
-//   firstName = fullName.slice(0, 6);
-//   lastName = fullName.slice(3)
+  letter = userName.charAt(0);
+  letter = letter.toUpperCase();
 
-    firstName = fullName.slice(0, fullName.indexOf(" "));
-  lastName = fullName.slice(fullName.indexOf(" ")+1);
-
-  console.log(firstName);
-  console.log(lastName);
+    letter =userName.charAt(1).toUpperCase();
+  
+  console.log(letter);
 
