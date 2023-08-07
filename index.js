@@ -3,7 +3,7 @@
 for( let counter = 1; counter <= 20; counter +=1){
     if (counter == 13) 
     {
-        break;    
+        continue;    
     }
     console.log(counter);
 }
