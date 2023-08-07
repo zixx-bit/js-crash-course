@@ -1,13 +1,5 @@
-// do while loop = do something ,
-                // then check the condition, reoeat if the condition is true
-                 
-let userName;
+// for loop = reapeat some code a certain amount of times or limited amount of times
 
-
-    do {
-        userName = window.prompt("enter your name ");
-       
-    } while (userName == "" || userName == null);
-
-   
-    console.log("Hello", userName);
+for( let counter = 1; counter <= 10; counter +=1){
+    console.log(counter);
+}
