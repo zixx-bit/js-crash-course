@@ -1,9 +1,10 @@
-// for loop = reapeat some code a certain amount of times or limited amount of times
+// nested loop = a loop inside another loop 
 
-for( let counter = 1; counter <= 20; counter +=1){
-    if (counter == 13) 
-    {
-        continue;    
+
+for (let i = 1; i <=2; i++) {
+   
+    for (let j = 1; j <=3; j++) {
+            console.log(j) ;       
     }
-    console.log(counter);
+    
 }
