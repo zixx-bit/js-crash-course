@@ -1,26 +1,20 @@
-// nested loop = a loop inside another loop 
+// reurn = returns a value back to the place where you invoked a function
 
-// function = define code and use it many TimeRanges. 
-//             To perfom some code, call the function name
-
-startProgram();
-
-
-function startProgram(){
-    let name = "Edd Michira";
-    let age = "28";
-
-    happyBirthday(name, age);
-
-}
+// eg area of 5*6 is 30
 
 
 
-function happyBirthday(name, age){
-    
-console.log("Happy birthday to you!");
-console.log("Happy birthday to you!");
-console.log("Happy birthday dear __", name);
-console.log("You are", age," __ yaers old");
+let area;
+let height;
+let width;
+width = window.prompt("Enter width");
+height = window.prompt("height");
 
+area = getArea(width, height); //this is equal to 30 as well i.e area = 30
+
+console.log (area);
+
+function getArea(width, height){
+    let result= width * height;
+    return result;
 }
