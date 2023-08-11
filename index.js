@@ -12,4 +12,7 @@ let total = 75;
 // console.log("your total is ", total);
 
 // template literals
-console.log(`hello ${userName}, you have ${items} in your cart. Your total is ${total}`);
+let text =`hello ${userName}, you have ${items} in your cart. Your total is ${total}`;
+console.log(text);
+document.getElementById("myLabel").innerHTML = text;
+
