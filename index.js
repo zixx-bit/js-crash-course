@@ -1,20 +1,15 @@
-// reurn = returns a value back to the place where you invoked a function
+// template literals = delimited with(``) 
+                        // instead of double or single quotes 
+                        // allows embedded variables and expressions
 
-// eg area of 5*6 is 30
 
+let userName = "Edd";
+let items = 3;
+let total = 75;
 
+// console.log("hello", userName);
+// console.log("you have", items ,"in your cart ");
+// console.log("your total is ", total);
 
-let area;
-let height;
-let width;
-width = window.prompt("Enter width");
-height = window.prompt("height");
-
-area = getArea(width, height); //this is equal to 30 as well i.e area = 30
-
-console.log (area);
-
-function getArea(width, height){
-    let result= width * height;
-    return result;
-}
+// template literals
+console.log(`hello ${userName}, you have ${items} in your cart. Your total is ${total}`);
