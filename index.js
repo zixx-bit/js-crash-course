@@ -40,8 +40,7 @@ document.getElementById("myLabel").innerHTML = text;
         document.getElementById("fButton").innerHTML = "Select a unit"
 
     }   
-    
-}
+  }
 
    function toCelcius(){
      return (temp - 32)* (5/9);
